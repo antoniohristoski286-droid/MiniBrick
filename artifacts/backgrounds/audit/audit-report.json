@@ -1,0 +1,17 @@
+{
+  "confirmedBefore": [
+    "long names truncated with ellipsis (548px content in 210px row)",
+    "dark text unreadable over dark uploaded photo",
+    "long unbroken review values changed frame width from 238.56px to 243.13px"
+  ],
+  "longTextAndReadabilityCases": 30,
+  "fullNamesAndMessage": "preserved without ellipsis",
+  "textInsideFrame": "passed",
+  "emptyFields": "preserved, no backing plate",
+  "figureGeometry": "unchanged by text edits",
+  "loadingGeometry": "stable",
+  "categorySelection": "preserved",
+  "catalogAndCustomFinalReview": "synchronized",
+  "runtimeErrors": [],
+  "frameColor": "This legacy audit checks the default white frame; upgrade-tests/test_upgrade.py verifies both frame colors."
+}

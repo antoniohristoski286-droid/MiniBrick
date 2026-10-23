@@ -1,0 +1,17 @@
+{
+  "movement": "passed",
+  "emptyFields": "no fallback text",
+  "textRowsReserveSpace": true,
+  "figuresUnchangedByText": "passed",
+  "partialNames": "passed",
+  "stateAcrossStepsAndBackgrounds": "preserved",
+  "keyboard": "passed",
+  "responsiveBoundsCases": 12,
+  "widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "runtimeErrors": []
+}

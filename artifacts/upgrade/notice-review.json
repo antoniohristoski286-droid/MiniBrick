@@ -1,0 +1,16 @@
+[
+  {
+    "width": 1440,
+    "border": "0px",
+    "background": "rgb(247, 241, 233)",
+    "padding": "12px",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "border": "0px",
+    "background": "rgb(247, 241, 233)",
+    "padding": "12px",
+    "overflow": false
+  }
+]

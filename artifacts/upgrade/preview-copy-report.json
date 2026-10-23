@@ -1,0 +1,23 @@
+[
+  {
+    "width": 1440,
+    "fontSize": "14px",
+    "color": "rgb(68, 54, 45)",
+    "background": "rgb(255, 250, 245)",
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "fontSize": "14px",
+    "color": "rgb(68, 54, 45)",
+    "background": "rgb(255, 250, 245)",
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "fontSize": "14px",
+    "color": "rgb(68, 54, 45)",
+    "background": "rgb(255, 250, 245)",
+    "overflow": false
+  }
+]

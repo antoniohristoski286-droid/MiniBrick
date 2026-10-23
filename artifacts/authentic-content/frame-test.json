@@ -1,0 +1,14 @@
+{
+  "fourFigures": "20 \u00d7 25 cm portrait",
+  "teamCounts": [
+    5,
+    8,
+    12,
+    24
+  ],
+  "A4Orientation": "landscape",
+  "invalidTeamInput": "blocked",
+  "reviewAndExport": "passed",
+  "pricingAndReset": "passed",
+  "runtimeErrors": []
+}

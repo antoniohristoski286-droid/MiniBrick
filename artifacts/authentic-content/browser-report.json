@@ -1,0 +1,25 @@
+{
+  "story": "four supplied paragraphs",
+  "hero": "original photo with exterior-only CSS mask",
+  "galleryPhotos": 5,
+  "instagramPhotos": 4,
+  "lightboxEachPhoto": "passed",
+  "responsiveCases": 40,
+  "teamCounts": [
+    5,
+    8,
+    12,
+    24
+  ],
+  "widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "scaleAcrossCatalogAndCalendar": "identical",
+  "figureBounds": "passed",
+  "builderFigure12": "passed",
+  "runtimeErrors": [],
+  "failedRequests": []
+}

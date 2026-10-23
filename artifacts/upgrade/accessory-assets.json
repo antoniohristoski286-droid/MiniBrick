@@ -1,0 +1,122 @@
+[
+  {
+    "file": "public/accessories/cat-black-reference.png",
+    "dimensions": [
+      1145,
+      1374
+    ],
+    "bytes": 1264491,
+    "sha256": "0bdf09ba338ca1e716d08ca1fb354b93393e2346e0772b90cc1e987d5897a14a",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/cat-orange-reference.png",
+    "dimensions": [
+      1180,
+      1333
+    ],
+    "bytes": 883226,
+    "sha256": "99cbcca8327ee9dbc6aad9b6c2d0cd2b4fbf965d54d376610e1d2b4378804768",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/cat-reference.png",
+    "dimensions": [
+      1247,
+      1261
+    ],
+    "bytes": 959371,
+    "sha256": "4ab6b013436eab742ad1a87d55c124a42f00b7beba5aee3ef8b99bb335d9d365",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/cat-white-reference.png",
+    "dimensions": [
+      1247,
+      1261
+    ],
+    "bytes": 847886,
+    "sha256": "903481bc7facc5dfc837ad9584eea21fa3ca681c2e503cbb9bdff8675a47d833",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/cat.png",
+    "dimensions": [
+      1214,
+      1295
+    ],
+    "bytes": 861977,
+    "sha256": "338eb397f4d6bf140660e906ebbbbbf74d647b7f5a3e1b54b9e41a2892f153d4",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/dog-reference.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 1481717,
+    "sha256": "728eb1f9bc06302340784b185c0335564f9e1711979ac549d68f48951df41dd9",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/dog-spotted-reference.png",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "bytes": 982172,
+    "sha256": "29792351c3abf11c1d1db13679f7169ad19d21fc2eabbe12afa8a27d0e098c6e",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/dog-white-reference.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 1264721,
+    "sha256": "aba6db715a8feb1925efaa9b2b3643e8fceb98c90b3340e209b24be0efce478b",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/dog.png",
+    "dimensions": [
+      1373,
+      1145
+    ],
+    "bytes": 781536,
+    "sha256": "e4b0d3252f450809c23d19da02f5147730a14804469983e17cee07f6085122bd",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/gun.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 748455,
+    "sha256": "477564280ddc12e8c77580e697d7390b011006c0242deebf3c300bdbeced480b",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/heart.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 898641,
+    "sha256": "66894077d07f2981facf35986ca3d5b0acd744e211ac7b6b22c76492f56beaab",
+    "transparent": true
+  },
+  {
+    "file": "public/accessories/money.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 831078,
+    "sha256": "f960453d0f1888166504141155a9e37a2fef7e2250007a8c760390bd93c8dfcc",
+    "transparent": true
+  }
+]

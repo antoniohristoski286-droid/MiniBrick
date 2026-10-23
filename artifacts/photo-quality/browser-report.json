@@ -1,0 +1,71 @@
+{
+  "originalsReplaced": 4,
+  "imageQuality": 90,
+  "teamScale": [
+    {
+      "width": 1440,
+      "count": 5,
+      "scaleIncrease": 1.609
+    },
+    {
+      "width": 1440,
+      "count": 8,
+      "scaleIncrease": 1.609
+    },
+    {
+      "width": 1440,
+      "count": 12,
+      "scaleIncrease": 1.609
+    },
+    {
+      "width": 1440,
+      "count": 24,
+      "scaleIncrease": 1.433
+    },
+    {
+      "width": 390,
+      "count": 5,
+      "scaleIncrease": 1.358
+    },
+    {
+      "width": 390,
+      "count": 8,
+      "scaleIncrease": 1.358
+    },
+    {
+      "width": 390,
+      "count": 12,
+      "scaleIncrease": 1.358
+    },
+    {
+      "width": 390,
+      "count": 24,
+      "scaleIncrease": 1.284
+    },
+    {
+      "width": 320,
+      "count": 5,
+      "scaleIncrease": 1.402
+    },
+    {
+      "width": 320,
+      "count": 8,
+      "scaleIncrease": 1.402
+    },
+    {
+      "width": 320,
+      "count": 12,
+      "scaleIncrease": 1.402
+    },
+    {
+      "width": 320,
+      "count": 24,
+      "scaleIncrease": 1.314
+    }
+  ],
+  "realArtworkBounds": "passed",
+  "figureOverlap": "none",
+  "galleryAndLightbox": "passed",
+  "runtimeErrors": [],
+  "failedRequests": []
+}

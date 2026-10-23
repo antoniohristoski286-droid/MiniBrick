@@ -1,0 +1,5 @@
+.layer{position:absolute;inset:0;z-index:0;background:#fffefd;overflow:hidden}.layer>img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:none}.status{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:7px;text-align:center;padding:18px;color:#796d63;font-size:10px;line-height:1.5}.status button{background:white;border:1px solid #c4aaa0;padding:6px;font-size:10px;color:#a3222a}
+
+.errorLayer{z-index:4;background:transparent;pointer-events:none}.errorLayer .status{inset:auto 5% 3%;background:#fffefdf5;border:1px solid #eaded3;border-radius:3px;padding:9px;pointer-events:auto}
+
+.layer>img.photoBackdrop{filter:blur(12px);transform:scale(1.2);opacity:.7}.layer:has(.photoBackdrop){background:#e8ded3}

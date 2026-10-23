@@ -1,0 +1,29 @@
+{
+  "viewports": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "navigationAnchors": 17,
+  "skipLink": "passed",
+  "stepFocus": "passed",
+  "mobileEscapeFocus": "passed",
+  "faqKeyboard": "passed",
+  "optimizedImages": "passed",
+  "privacyPage": "passed",
+  "noFalseTestimonialsOrContactLink": "passed",
+  "contactValidation": "passed",
+  "preparedRequestFocus": "passed",
+  "clipboardFailureRecovery": "passed",
+  "download": "passed",
+  "photoNotTransmitted": "passed",
+  "personalDataNotPosted": true,
+  "htmlInputRenderedAsText": "passed",
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "securityHeaders": "passed",
+  "prelaunchNoindex": "passed",
+  "localized404": "passed"
+}

@@ -1,0 +1,8 @@
+{
+  "heroSource": "public/projects/birthday-frame.jpg",
+  "post": "https://www.instagram.com/minibrick.mk/p/DeeqDHgK2Hx/",
+  "method": "CSS polygon clips only exterior of original photo; photo pixels unchanged",
+  "rejectedEdit": "/Users/antoniohristoski/.codex/generated_images/01a165df-8227-7fe0-9276-d420c978bf8b/exec-f0797632-6f3d-4fba-8f3b-4c7c219da361.png",
+  "reason": "Image editing output changed product details; not used on website",
+  "editPrompt": "Background extraction only, preserving frame, figures, hearts, lettering and perspective; true alpha outside frame."
+}

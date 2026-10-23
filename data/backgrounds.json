@@ -1,0 +1,1175 @@
+{
+  "version": "2026-10-22",
+  "source": "Archive(1).zip (identical to Archive.zip)",
+  "totalOriginals": 111,
+  "websiteReady": 110,
+  "editorScreenshotExcluded": [
+    "BG014"
+  ],
+  "categories": [
+    {
+      "name": "Љубов и годишнини",
+      "count": 43
+    },
+    {
+      "name": "Родендени и прослави",
+      "count": 15
+    },
+    {
+      "name": "Дом и семејство",
+      "count": 12
+    },
+    {
+      "name": "Пријателство",
+      "count": 3
+    },
+    {
+      "name": "Свадби и свршувачки",
+      "count": 3
+    },
+    {
+      "name": "Божиќ и зима",
+      "count": 12
+    },
+    {
+      "name": "Минималистички и дезени",
+      "count": 18
+    },
+    {
+      "name": "Календари и датуми",
+      "count": 2
+    },
+    {
+      "name": "Мотивација и достигнувања",
+      "count": 2
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "BG001",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG001.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG001.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "00399632-988C-426C-B7A5-CB3A339779D4.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG002",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG002.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG002.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "0356726E-1953-47BB-A87B-3369E61FF3C7.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG003",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG003.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG003.jpg",
+      "status": "review",
+      "edited": false,
+      "original_filename": "05120776-DD3C-41DD-8AD4-2D49B5341D25.JPG",
+      "warnings": [
+        "Contains a decorative LEGO trademark reference. Verify business approval before publishing."
+      ]
+    },
+    {
+      "id": "BG004",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG004.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG004.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "07EEE7ED-5599-409E-B29E-45F9171D994F.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG005",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG005.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG005.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "108CE604-453C-479F-BBAF-AE2B99D59F96.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG006",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG006.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG006.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "12176351-49B8-4FD6-A81D-156F70CACF1E.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG007",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG007.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG007.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "12C35C7D-4B7B-4997-B3C9-6F570CD364CE.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG008",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG008.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG008.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "13572A69-37E1-4F58-A4B8-59E0FAF081EE.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG009",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG009.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG009.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "146D0F1C-5937-451C-B917-DC34D71303B0.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG010",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG010.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG010.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "169412E6-D7A0-4FFD-A1D3-33C0B5FAC6BB.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG011",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG011.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG011.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "190D44BC-788E-4686-B900-9279083E1A8C.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG012",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG012.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG012.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "21A2BD8A-6588-4CEF-8F1D-8B59C174AE94.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG013",
+      "category": "Пријателство",
+      "src": "/backgrounds/BG013.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG013.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2406679E-01F8-4F5E-A729-07F72AF5F54E.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG014",
+      "category": "За рачна проверка",
+      "src": null,
+      "thumbnail": null,
+      "status": "excluded",
+      "edited": false,
+      "original_filename": "2665616A-6621-4844-AD29-BE8183FD4E69.JPG",
+      "warnings": [
+        "Editor screenshot: excluded from website-ready exports; obtain clean source."
+      ]
+    },
+    {
+      "id": "BG015",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG015.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG015.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "26B2C1E6-A29C-4469-9EE3-F4E4CF3DA8C3.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG016",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG016.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG016.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "273502DD-0FD7-4374-A31C-BDC51015E2C7.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG017",
+      "category": "Свадби и свршувачки",
+      "src": "/backgrounds/BG017.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG017.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2777A394-5BEB-43A7-B6A1-D1131765053E.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG018",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG018.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG018.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "277C460E-9328-4181-9FBB-B60C1CC66265.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG019",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG019.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG019.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2873F34A-3423-4DE9-918E-A5EF26557BED.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG020",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG020.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG020.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2D1C2D73-CD92-474A-B4A7-6ADB01C6E570.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG021",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG021.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG021.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2D594DBD-CC54-4723-BA8D-5A466B1850BA.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG022",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG022.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG022.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2E3B765A-4ACA-47E4-8582-B8742F25FC13.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG023",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG023.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG023.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "2EC95EE9-D03C-4E51-A35A-AF3A9A486BBC.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG024",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG024.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG024.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "310E5808-454E-4FE9-BEA2-2ADFA6A2053C.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG025",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG025.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG025.jpg",
+      "status": "review",
+      "edited": false,
+      "original_filename": "375D1FC1-D3BC-4434-98D8-46FCE79D0062.JPG",
+      "warnings": [
+        "Small creator handle/signature visible; original retained, requires rights/branding review."
+      ]
+    },
+    {
+      "id": "BG026",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG026.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG026.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "39AFC993-17E9-4EDB-9989-9CED2EF0DCE8.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG027",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG027.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG027.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "3B568486-C624-45B2-9FF9-0DBFE8F6D299.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG028",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG028.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG028.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "3BECAC39-8FA2-43E2-A300-0278B14199A5.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG029",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG029.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG029.jpg",
+      "status": "review",
+      "edited": false,
+      "original_filename": "3D3AFC89-9D07-42CA-A263-50120AFDE97F.JPG",
+      "warnings": [
+        "Contains a decorative LEGO word reference. Verify business approval before publishing."
+      ]
+    },
+    {
+      "id": "BG030",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG030.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG030.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "3EF5E5DF-8A42-4A07-8296-9D01589FBFC2.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG031",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG031.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG031.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "4353670B-A6D0-46DC-A588-42E28AA6690E.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG032",
+      "category": "Календари и датуми",
+      "src": "/backgrounds/BG032.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG032.jpg",
+      "status": "review",
+      "edited": false,
+      "original_filename": "46C1731E-5A66-43C7-B494-1E7A4B832B6F.JPG",
+      "warnings": [
+        "Baked-in calendar month/date; not an interactive calendar."
+      ]
+    },
+    {
+      "id": "BG033",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG033.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG033.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "47DE0CFE-3654-45EF-84FB-98B591A17A06.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG034",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG034.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG034.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "48F80909-3F0C-43B4-A16A-4658206F2594.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG035",
+      "category": "Пријателство",
+      "src": "/backgrounds/BG035.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG035.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "49199E48-50AC-4395-99D1-DFAA4EE71A25.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG036",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG036.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG036.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "49E9405C-051F-407F-ADED-A9CC70F7AAA7.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG037",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG037.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG037.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "4AC3EA36-13D8-4296-BA8D-4C63C8919470.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG038",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG038.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG038.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "4D42435A-D1FE-4167-840E-2824DA26BAF8.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG039",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG039.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG039.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "52A2012B-44E1-4D55-962A-F19CE1919E1B.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG040",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG040.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG040.jpg",
+      "status": "ready",
+      "edited": true,
+      "original_filename": "52BAEFA3-4817-4E82-AB1D-C96318D13B0B.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG041",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG041.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG041.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "5309AD52-D6EB-4A12-B487-1F6B09BEFCAF.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG042",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG042.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG042.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "541040BD-D4BE-4265-BACD-47F687F00EFB.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG043",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG043.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG043.jpg",
+      "status": "ready",
+      "edited": true,
+      "original_filename": "563E6488-6095-472A-82C7-3B108B4643CD.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG044",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG044.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG044.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "5D5A842E-5E4E-4580-B46F-89F86F8706F1.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG045",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG045.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG045.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "5D6A3FFD-4559-48E2-8D59-0B8926AC482D.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG046",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG046.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG046.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "646D39B6-2C30-43BB-BF4B-5751C230E773.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG047",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG047.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG047.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "69B42250-2986-4D96-96BE-495E6FCCA2D4.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG048",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG048.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG048.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "6AF8E146-6F59-4A3C-A645-AADBDAF8C464.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG049",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG049.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG049.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "6BC8AA9B-30B7-45ED-8488-B7192D419EDE.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG050",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG050.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG050.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "74C86D66-DA99-420C-9124-2A1E926538C6.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG051",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG051.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG051.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "7638EC11-9DAC-4440-AF9B-09BB8A5AEC1A.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG052",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG052.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG052.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "7CCF5315-4EA2-402C-A81D-338495BEE539.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG053",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG053.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG053.jpg",
+      "status": "review",
+      "edited": false,
+      "original_filename": "7E956510-38F1-4A05-9B88-EF5CCE6D31A3.JPG",
+      "warnings": [
+        "Subtle vertical artifact present in supplied image; optional visual-quality review."
+      ]
+    },
+    {
+      "id": "BG054",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG054.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG054.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "7FFB593D-BC32-4297-8C9C-A0E7DFDEAD8E.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG055",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG055.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG055.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "83AD3AAA-B5EE-4789-B689-651AA8B19FB5.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG056",
+      "category": "Свадби и свршувачки",
+      "src": "/backgrounds/BG056.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG056.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "83FB9E07-817E-448E-95B4-620D2E8DBE27.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG057",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG057.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG057.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "855740E7-B8CF-4CEF-8BD1-84980C5B9F29.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG058",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG058.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG058.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "882191C8-9654-45A8-8BFB-13AED89911C0.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG059",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG059.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG059.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "89A4F3BB-68BE-4E6E-BE8F-539E0A1D3344.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG060",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG060.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG060.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "8A3C9CC1-E125-450F-9539-471AF542ADA7.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG061",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG061.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG061.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "8B5A7A00-9E89-4A91-A0D5-5C4108F98DC9.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG062",
+      "category": "Свадби и свршувачки",
+      "src": "/backgrounds/BG062.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG062.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "8BCCBE3D-2665-4D92-ABC9-D3E8A1FC4F20.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG063",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG063.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG063.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "8C6D4165-7AC4-4921-B69B-105F98BF735A.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG064",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG064.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG064.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "8FDC339D-21AE-4FBC-8A02-BA040A9D14DB.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG065",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG065.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG065.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "912889F0-1327-402F-9A22-86291A41AE81.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG066",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG066.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG066.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "933F8F99-303A-47A7-AACF-468A82CDB4F0.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG067",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG067.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG067.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "952E6EA3-53ED-4366-958F-068941C276F8.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG068",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG068.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG068.jpg",
+      "status": "ready",
+      "edited": true,
+      "original_filename": "977218C6-6CFF-4F5A-B02D-BB5C08D2BBF1.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG069",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG069.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG069.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "9A3F002F-C5E6-4A05-B8D7-4F74CB69977E.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG070",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG070.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG070.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "9B60C879-E8AA-4196-B188-E0E385366556.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG071",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG071.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG071.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "9DE2EF4E-BB58-4800-A1AB-D7EDDAEBB15B.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG072",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG072.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG072.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "9DE681A8-0C2E-472F-8AA0-42A79CB03C3D.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG073",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG073.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG073.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "A02BC48E-4989-4163-82F3-C14B10AB649C.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG074",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG074.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG074.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "A1E7FDF6-EEBF-41A3-935D-1F6EE38CB56A.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG075",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG075.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG075.jpg",
+      "status": "ready",
+      "edited": true,
+      "original_filename": "A28B02B0-B4EB-406D-B924-99AC11E273FF.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG076",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG076.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG076.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "A345A1B5-F0A2-441D-917C-19C70464DF39.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG077",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG077.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG077.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "A3FF9D12-5F05-44BA-A2A4-32E79825B617.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG078",
+      "category": "Пријателство",
+      "src": "/backgrounds/BG078.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG078.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "A4649A6D-FCA8-4E28-8007-1DF9A877CF15.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG079",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG079.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG079.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "A49A3ED0-3C5D-4AB1-89CB-868150C8A204.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG080",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG080.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG080.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "AAB02A97-3BB1-4849-89CA-C4335A4959CE.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG081",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG081.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG081.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "AAC8094E-4E7C-49E6-A049-8B4398F4E3B5.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG082",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG082.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG082.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "B0E12EE2-3016-45B4-8DE2-78374D45F07D.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG083",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG083.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG083.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "B4EE5B33-83E0-48C2-AF21-DBF783D65C71.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG084",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG084.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG084.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "B834B99D-134C-429E-BFB7-EC6E9471C9F7.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG085",
+      "category": "Календари и датуми",
+      "src": "/backgrounds/BG085.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG085.jpg",
+      "status": "review",
+      "edited": true,
+      "original_filename": "B9034654-DB23-4064-A4CE-DC1CBEA00218.JPG",
+      "warnings": [
+        "Baked-in August calendar and highlighted date; not an interactive calendar."
+      ]
+    },
+    {
+      "id": "BG086",
+      "category": "Мотивација и достигнувања",
+      "src": "/backgrounds/BG086.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG086.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "BA2D6899-FBCC-472F-B701-15360AB6A9CD.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG087",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG087.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG087.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "BB5E44E4-D92A-4B62-8AB9-947DEDEE8C32.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG088",
+      "category": "Родендени и прослави",
+      "src": "/backgrounds/BG088.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG088.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "C1995699-C0B0-4870-B562-F3D7C4113968.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG089",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG089.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG089.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "C1CA1880-0218-44CB-A673-FF3FF9BA1649.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG090",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG090.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG090.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "C34C5CFC-2E2B-45EB-B88A-2E20A305DFCA.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG091",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG091.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG091.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "CACB1BD1-3515-4083-A78E-DA3F671B5AEE.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG092",
+      "category": "Мотивација и достигнувања",
+      "src": "/backgrounds/BG092.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG092.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "D69ED062-5213-4426-9CFC-4CB19DAFDB2A.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG093",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG093.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG093.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "D8F949CD-7D1B-4415-A9E1-269B3586B63C.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG094",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG094.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG094.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "DA5B1A53-9CB3-4878-9D9C-7E8098633C1F.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG095",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG095.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG095.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "DAFFF46A-D0B8-4C47-A37E-F3E31FFE200C.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG096",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG096.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG096.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "DDAEBD5C-ECA7-4F4F-B543-223D19DFB40C.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG097",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG097.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG097.jpg",
+      "status": "ready",
+      "edited": true,
+      "original_filename": "DF0FBC30-EBF5-4C20-9A5D-CC939D87F59A.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG098",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG098.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG098.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "DF843905-8301-43DC-A399-603D648E97C5.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG099",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG099.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG099.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "E106A8C9-44D5-478F-AC75-F32C467462F8.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG100",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG100.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG100.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "E1560A27-AF91-4B0B-9478-2896FD20FCF6.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG101",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG101.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG101.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "E19AF6A1-4F6E-4359-85F8-433C313B11E1.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG102",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG102.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG102.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "E24CC535-468C-47B4-AF0F-068B04687B21.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG103",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG103.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG103.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "E98EB009-FADD-4491-9C96-7E4871447D4B.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG104",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG104.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG104.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "EB3A7E16-8CFF-412D-AC37-62F04AD0170D.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG105",
+      "category": "Минималистички и дезени",
+      "src": "/backgrounds/BG105.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG105.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "ED95A804-2FB7-40EE-9B60-64E280D0408A.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG106",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG106.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG106.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "F08BB962-9838-4AC5-B2B7-6985DEB63A3D.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG107",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG107.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG107.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "F355A8A0-C3A2-43AD-A43C-BCED75A5998B.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG108",
+      "category": "Дом и семејство",
+      "src": "/backgrounds/BG108.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG108.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "F3D19E4E-791A-48E9-A368-35CD27372EDF.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG109",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG109.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG109.jpg",
+      "status": "review",
+      "edited": false,
+      "original_filename": "F8CD8FFB-2ADB-4B8E-BEDE-7F595CE0B3EB.JPG",
+      "warnings": [
+        "Contains a fixed date (01.07.2025); ensure this is intentional for selectable design."
+      ]
+    },
+    {
+      "id": "BG110",
+      "category": "Божиќ и зима",
+      "src": "/backgrounds/BG110.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG110.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "F8D7B8EB-0768-4081-A00C-A6678D303015.JPG",
+      "warnings": []
+    },
+    {
+      "id": "BG111",
+      "category": "Љубов и годишнини",
+      "src": "/backgrounds/BG111.jpg",
+      "thumbnail": "/backgrounds/thumbnails/BG111.jpg",
+      "status": "ready",
+      "edited": false,
+      "original_filename": "FA0ACF50-DD3D-43E6-B63D-CA79D1C9DDDF.JPG",
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "geometryComparisons": 64,
+  "counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "widths": [
+    1440,
+    768,
+    390,
+    320
+  ],
+  "catalogPhotoCalendarScale": "identical",
+  "backgroundCoverage": "full interior",
+  "wholePhotoBackdrop": "passed",
+  "textFinalConsistency": "passed",
+  "galleryPhotos": 1,
+  "galleryLightboxKeyboard": "passed",
+  "honestStory": "passed",
+  "disclaimer": "exact",
+  "runtimeErrors": []
+}

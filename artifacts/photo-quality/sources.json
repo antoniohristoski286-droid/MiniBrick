@@ -1,0 +1,58 @@
+[
+  {
+    "path": "public/projects/birthday-frame-hq.jpg",
+    "previousDimensions": [
+      530,
+      640
+    ],
+    "newDimensions": [
+      1378,
+      1663
+    ],
+    "source": "https://www.instagram.com/minibrick.mk/p/DeeqDHgK2Hx/",
+    "sha256": "993f9da40dbf00bdb8215fc1ec9476bd93ac91730ad2a2abc90ec5cb8486a975",
+    "method": "original higher-resolution public-post image; copied without resizing, AI or re-encoding"
+  },
+  {
+    "path": "public/projects/family-frame-hq.jpg",
+    "previousDimensions": [
+      640,
+      640
+    ],
+    "newDimensions": [
+      1248,
+      1248
+    ],
+    "source": "https://www.instagram.com/minibrick.mk/p/DewUoHVKQeY/",
+    "sha256": "8053d538edaaec643751cbf1d08fef94b2c86ae16b122f7cd72b17bba08a1b68",
+    "method": "original higher-resolution public-post image; copied without resizing, AI or re-encoding"
+  },
+  {
+    "path": "public/projects/couple-frames-hq.jpg",
+    "previousDimensions": [
+      480,
+      640
+    ],
+    "newDimensions": [
+      3024,
+      4032
+    ],
+    "source": "https://www.instagram.com/minibrick.mk/p/DeZQeVLiky6/",
+    "sha256": "df8a289b8e30f1376a7ea87e70f4b977fba7e19e7751f262d2331d4ab37bf5e0",
+    "method": "original higher-resolution public-post image; copied without resizing, AI or re-encoding"
+  },
+  {
+    "path": "public/projects/four-figure-frame-hq.jpg",
+    "previousDimensions": [
+      480,
+      640
+    ],
+    "newDimensions": [
+      3072,
+      4096
+    ],
+    "source": "https://www.instagram.com/minibrick.mk/p/DeWqO6LChdx/",
+    "sha256": "b0c7c188104f2b194d8c8e61e998abae45fb640940f4d4ceb755591e955811d0",
+    "method": "original higher-resolution public-post image; copied without resizing, AI or re-encoding"
+  }
+]

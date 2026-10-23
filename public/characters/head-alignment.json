@@ -1,0 +1,209 @@
+{
+  "H01": {
+    "face": {
+      "x": 178,
+      "y": 177,
+      "width": 156,
+      "height": 117
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 222
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      105,
+      22,
+      434,
+      306
+    ],
+    "scale": 0.81395
+  },
+  "H02": {
+    "face": {
+      "x": 178,
+      "y": 177,
+      "width": 156,
+      "height": 117
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 222
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      592,
+      22,
+      921,
+      305
+    ],
+    "scale": 0.80925
+  },
+  "H03": {
+    "face": {
+      "x": 178,
+      "y": 177,
+      "width": 156,
+      "height": 117
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 222
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      1109,
+      22,
+      1418,
+      340
+    ],
+    "scale": 0.97902
+  },
+  "H04": {
+    "face": {
+      "x": 178,
+      "y": 177,
+      "width": 156,
+      "height": 117
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 222
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      122,
+      370,
+      427,
+      678
+    ],
+    "scale": 1.02941
+  },
+  "H05": {
+    "face": {
+      "x": 178,
+      "y": 177,
+      "width": 156,
+      "height": 117
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 222
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      600,
+      375,
+      922,
+      674
+    ],
+    "scale": 0.91503
+  },
+  "H06": {
+    "face": {
+      "x": 190,
+      "y": 194,
+      "width": 132,
+      "height": 99
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 235
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      1111,
+      384,
+      1408,
+      643
+    ],
+    "scale": 0.8642
+  },
+  "H07": {
+    "face": {
+      "x": 190,
+      "y": 194,
+      "width": 132,
+      "height": 99
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 235
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      127,
+      715,
+      418,
+      960
+    ],
+    "scale": 0.74866
+  },
+  "H08": {
+    "face": {
+      "x": 190,
+      "y": 194,
+      "width": 132,
+      "height": 99
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 235
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      617,
+      715,
+      908,
+      960
+    ],
+    "scale": 0.75676
+  },
+  "H09": {
+    "face": {
+      "x": 190,
+      "y": 194,
+      "width": 132,
+      "height": 99
+    },
+    "faceCenter": {
+      "x": 256,
+      "y": 235
+    },
+    "headConnection": {
+      "x": 256,
+      "y": 280
+    },
+    "sourceCrop": [
+      1122,
+      716,
+      1407,
+      960
+    ],
+    "scale": 0.75269
+  }
+}

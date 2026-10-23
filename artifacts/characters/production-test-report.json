@@ -1,0 +1,12 @@
+{
+  "homepage": 200,
+  "productionCharacterControls": "passed",
+  "independentFigures": "passed",
+  "responsiveWidths": [
+    390,
+    320
+  ],
+  "assetFilesServed": 81,
+  "developmentGalleryStatus": 404,
+  "runtimeErrors": []
+}

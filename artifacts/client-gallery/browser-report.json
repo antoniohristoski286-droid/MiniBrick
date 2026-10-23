@@ -1,0 +1,31 @@
+{
+  "clientPhotos": 50,
+  "zipBytesUnchanged": true,
+  "allThumbnailsDecoded": true,
+  "allLightboxesDecoded": true,
+  "escapeAndFocusRestore": true,
+  "uncroppedPhotos": true,
+  "responsiveCases": [
+    {
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "overflow": false
+    }
+  ],
+  "homepageGallery": "two client photos",
+  "hero": "preserved",
+  "configurator": "present, five steps",
+  "runtimeErrors": [],
+  "httpErrors": []
+}

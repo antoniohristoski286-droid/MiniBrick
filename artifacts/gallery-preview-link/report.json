@@ -1,0 +1,83 @@
+{
+  "showcase": "two original ZIP photos",
+  "galleryLink": "beneath every preview disclaimer",
+  "characterWarning": "illustration notice visible",
+  "newTab": "50-photo gallery opened; builder step preserved",
+  "responsiveCases": [
+    {
+      "width": 1440,
+      "step": "\u0424\u0438\u0433\u0443\u0440\u0438"
+    },
+    {
+      "width": 1440,
+      "step": "\u0421\u0442\u0438\u043b"
+    },
+    {
+      "width": 1440,
+      "step": "\u041f\u0440\u0435\u0433\u043b\u0435\u0434"
+    },
+    {
+      "width": 390,
+      "step": "\u0424\u0438\u0433\u0443\u0440\u0438"
+    },
+    {
+      "width": 390,
+      "step": "\u0421\u0442\u0438\u043b"
+    },
+    {
+      "width": 390,
+      "step": "\u041f\u0440\u0435\u0433\u043b\u0435\u0434"
+    },
+    {
+      "width": 320,
+      "step": "\u0424\u0438\u0433\u0443\u0440\u0438"
+    },
+    {
+      "width": 320,
+      "step": "\u0421\u0442\u0438\u043b"
+    },
+    {
+      "width": 320,
+      "step": "\u041f\u0440\u0435\u0433\u043b\u0435\u0434"
+    }
+  ],
+  "runtimeErrors": [],
+  "characterVisibilityAfterMobileFix": [
+    {
+      "width": 1440,
+      "character": {
+        "x": 908.171875,
+        "y": 411.59375,
+        "width": 260,
+        "height": 355
+      }
+    },
+    {
+      "width": 768,
+      "character": {
+        "x": 254,
+        "y": 1310.046875,
+        "width": 260,
+        "height": 355
+      }
+    },
+    {
+      "width": 390,
+      "character": {
+        "x": 136,
+        "y": 1492.09375,
+        "width": 118,
+        "height": 177
+      }
+    },
+    {
+      "width": 320,
+      "character": {
+        "x": 88.671875,
+        "y": 465.53125,
+        "width": 142.65625,
+        "height": 214
+      }
+    }
+  ]
+}

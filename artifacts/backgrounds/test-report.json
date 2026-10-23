@@ -1,0 +1,78 @@
+{
+  "originalsLoaded": 110,
+  "thumbnailsLoaded": 110,
+  "catalogSelections": 110,
+  "categoryFilters": [
+    {
+      "name": "Љубов и годишнини",
+      "count": 43
+    },
+    {
+      "name": "Родендени и прослави",
+      "count": 15
+    },
+    {
+      "name": "Дом и семејство",
+      "count": 12
+    },
+    {
+      "name": "Пријателство",
+      "count": 3
+    },
+    {
+      "name": "Свадби и свршувачки",
+      "count": 3
+    },
+    {
+      "name": "Божиќ и зима",
+      "count": 12
+    },
+    {
+      "name": "Минималистички и дезени",
+      "count": 18
+    },
+    {
+      "name": "Календари и датуми",
+      "count": 2
+    },
+    {
+      "name": "Мотивација и достигнувања",
+      "count": 2
+    }
+  ],
+  "uploads": [
+    "jpg",
+    "png",
+    "webp"
+  ],
+  "responsiveWidths": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "photoAspectRatios": [
+    "landscape",
+    "portrait",
+    "square"
+  ],
+  "BG014": "excluded",
+  "reviewEntriesRetained": 7,
+  "independentFiguresPreserved": 4,
+  "textAndDate": "preserved",
+  "keyboard": "passed",
+  "layeringAndClipping": "passed",
+  "sameFigureDOMNodes": "passed",
+  "validation": [
+    "invalid type",
+    "oversize",
+    "corrupt image",
+    "empty file",
+    "invalid replacement preserves photo"
+  ],
+  "cropAndFinalPreview": "passed",
+  "objectURLCleanup": "passed",
+  "imageErrorAndRetry": "passed",
+  "runtimeErrors": []
+}

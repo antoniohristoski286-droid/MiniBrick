@@ -1,0 +1,79 @@
+.builder { min-width: 0; }
+.figureTabs { display:flex; gap:7px; margin-bottom:28px; }
+.figureTabs button { display:flex; flex:1; min-width:0; align-items:center; justify-content:center; gap:6px; background:#faf8f5; border:1px solid #e7dfd7; padding:9px 5px; color:#706964; font-size:11px; font-weight:650; transition:border-color .15s,background .15s; }
+.figureTabs button.activeFigure { color:#b71922; border-color:#e9232d; background:#fff5f3; }
+.tabFigure { width:22px; height:33px; display:block; flex:none; }
+.tabFigure svg { height:100%; width:100%; }
+.fieldset { margin:0 0 28px; padding:0; border:0; min-width:0; }
+.fieldset legend { width:100%; display:flex; align-items:baseline; justify-content:space-between; margin:0 0 12px; padding:0; font-size:13px; font-weight:750; letter-spacing:-.015em; }
+.fieldset legend small { color:#81766e; font-size:10px; font-weight:400; letter-spacing:0; }
+.typeGrid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:7px; }
+.typeButton { position:relative; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:7px; padding:12px 3px 11px; background:#fff; border:1px solid #e7dfd7; transition:background .15s,border-color .15s; }
+.typeButton>span { display:block; width:32px; height:48px; }
+.typeButton>span>svg { width:100%; height:100%; }
+.typeButton>svg { position:absolute; top:6px; right:6px; color:#e9232d; }
+.typeButton strong { font-size:10px; font-weight:650; }
+.options { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:7px; }
+.hairOptions { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.choice { position:relative; display:flex; flex-direction:column; align-items:center; gap:7px; min-width:0; background:#fff; border:1px solid #e7dfd7; padding:9px 4px 7px; transition:border-color .15s,background .15s; }
+.choice:hover,.typeButton:hover { border-color:#c18d85; background:#fffaf7; }
+.choice.selected,.typeButton.selected { border-color:#e9232d; background:#fff5f3; box-shadow:inset 0 0 0 .5px #e9232d; }
+.choiceGraphic { width:100%; display:flex; justify-content:center; align-items:center; height:43px; }
+.hairOptions .choiceGraphic { height:72px; }
+.thumbnail { width:100%; height:100%; max-width:96px; display:block; }
+.choiceId { font:10px 'Courier New',monospace; color:#645952; }
+.check { position:absolute; right:3px; top:3px; width:15px; height:15px; border-radius:50%; display:grid; place-items:center; background:#e9232d; color:#fff; }
+.faceThumb { width:100%; max-width:52px; height:43px; display:grid; place-items:center; background:#ffc78e; border-radius:12px 12px 14px 14px; }
+.faceThumb svg { width:96%; height:96%; }
+.livePreview { display:flex; flex:1; flex-direction:column; min-height:0; padding-top:30px; }
+.previewCaption { display:flex; justify-content:space-between; align-items:baseline; gap:20px; color:#726258; font-size:12px; }
+.previewCaption span:first-child { color:#322923; font-weight:750; font-size:20px; letter-spacing:-.03em; }
+.liveStage { flex:1; min-height:0; display:grid; place-items:center; padding:20px 10px 8px; }
+.liveStage>svg { display:block; width:min(100%,300px); height:auto; max-height:430px; }
+.previewIds { text-align:center; font:11px 'Courier New',monospace; color:#584a40; letter-spacing:.07em; }
+.previewNote { color:#74665c; font-size:11px; text-align:center; margin:10px 0 0; line-height:1.5; }
+.provisionalNote { border-top:1px solid #e7dfd7; padding-top:14px; margin:0; font-size:11px; line-height:1.6; color:#76675c; }
+@media(min-width:761px) and (max-width:1050px) { .options { grid-template-columns:repeat(4,minmax(0,1fr)); } .hairOptions { grid-template-columns:repeat(3,minmax(0,1fr)); } .figureTabs { gap:4px; } .tabFigure { display:none; } }
+@media(max-width:760px) {
+ .builder { padding-top:3px; }
+ .livePreview { display:grid; grid-template-rows:20px minmax(0,1fr) 13px 18px; padding-top:9px; }
+ .liveStage { display:flex; align-items:center; justify-content:center; height:100%; padding:3px 0; min-height:0; }
+ .liveStage>svg { flex:none; min-height:0; height:100%; width:auto; max-width:100%; max-height:100%; }
+ .previewCaption { font-size:10px; }
+ .previewCaption span:first-child { font-size:15px; }
+ .previewIds { font-size:10px; margin-top:0; align-self:center; }
+ .previewNote { font-size:10px; margin:2px 0 0; align-self:start; }
+ .options { grid-template-columns:repeat(6,minmax(0,1fr)); }
+ .hairOptions { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .choiceGraphic { height:45px; }
+ .figureTabs button { min-height:48px; }
+ .typeButton { min-height:90px; }
+ .fieldset { margin-bottom:27px; }
+}
+@media(max-width:420px) {
+ .options { grid-template-columns:repeat(4,minmax(0,1fr)); }
+ .hairOptions { grid-template-columns:repeat(3,minmax(0,1fr)); }
+ .figureTabs button { flex-direction:column; gap:3px; min-height:60px; }
+ .figureTabs button>span:last-child { white-space:nowrap; font-size:9px; }
+ .tabFigure { width:17px; }
+ .typeButton strong { font-size:11px; }
+ .typeButton { min-height:96px; }
+ .typeGrid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:5px; }
+ .choice { min-height:72px; }
+ .choiceGraphic { height:44px; }
+}
+
+/* Refine presentation without changing options, artwork or assembly logic. */
+.figureTabs{flex-wrap:wrap;gap:8px;margin-bottom:30px}
+.figureTabs button{border-radius:3px;min-height:54px;padding:10px 8px}
+.fieldset{padding-bottom:24px;border-bottom:1px solid #eee6de;margin-bottom:24px}
+.fieldset legend{font-size:14px;margin-bottom:15px}
+.choice,.typeButton{border-radius:3px}
+.choice{padding-top:12px;padding-bottom:9px;gap:8px}
+.typeButton{min-height:104px}
+.figureTabs button:focus-visible,.choice:focus-visible,.typeButton:focus-visible{outline:2px solid #b71922;outline-offset:3px}
+.liveStage>svg{width:min(100%,260px);max-height:355px}
+.livePreview{padding-top:24px}
+@media(max-width:760px){.livePreview{padding-top:9px}.liveStage>svg{height:100%;width:auto;max-height:100%;max-width:100%}.typeButton{min-height:96px}.fieldset{padding-bottom:22px;margin-bottom:22px}}
+.typeButton strong{overflow-wrap:anywhere;max-width:100%}
+@media(min-width:761px) and (max-width:1050px){.typeGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}

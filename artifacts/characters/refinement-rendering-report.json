@@ -1,0 +1,19 @@
+[
+  {
+    "previewHead": "H01",
+    "uniformScale": true
+  },
+  {
+    "previewHead": "H04",
+    "uniformScale": true
+  },
+  {
+    "previewHead": "H09",
+    "uniformScale": true
+  },
+  {
+    "frameFigures": 4,
+    "uniformScale": true,
+    "equalFigureScale": true
+  }
+]

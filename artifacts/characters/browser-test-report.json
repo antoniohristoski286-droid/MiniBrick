@@ -1,0 +1,35 @@
+{
+  "faceHairCombinations": 207,
+  "torsoColors": 12,
+  "legColors": 12,
+  "newbornFaces": 4,
+  "newbornBodyColors": 12,
+  "viewports": [
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "oversized": []
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "oversized": []
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "oversized": []
+    },
+    {
+      "width": 320,
+      "scroll": 320,
+      "oversized": []
+    }
+  ],
+  "runtimeErrors": [],
+  "failedRequests": [],
+  "independentFigures": 4,
+  "countRetention": "passed",
+  "unrelatedFrameSettings": "preserved",
+  "keyboard": "passed"
+}

@@ -1,0 +1,44 @@
+{
+  "sources": {
+    "torsos": {
+      "mode": "RGB",
+      "size": [
+        1122,
+        1402
+      ],
+      "alphaRange": null
+    },
+    "heads": {
+      "mode": "RGB",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaRange": null
+    },
+    "faces": {
+      "mode": "RGBA",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaRange": [
+        0,
+        254
+      ]
+    },
+    "legs": {
+      "mode": "RGB",
+      "size": [
+        1122,
+        1402
+      ],
+      "alphaRange": null
+    }
+  },
+  "heads": 9,
+  "faces": 27,
+  "torsos": 12,
+  "legs": 12,
+  "babyBody": "provisional manually drawn SVG; no baby body reference supplied"
+}

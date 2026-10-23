@@ -1,0 +1,19 @@
+{
+  "petVariants": 7,
+  "checks": 7448,
+  "basePrices": [
+    1290,
+    1690,
+    2090,
+    2490,
+    2840,
+    3190,
+    3540,
+    3890
+  ],
+  "calendarMonths": 2412,
+  "accessoryCombinations": 16,
+  "exampleTotal": 2080,
+  "orderSanitization": "passed",
+  "newbornFields": "passed"
+}

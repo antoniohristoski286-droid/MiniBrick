@@ -1,0 +1,22 @@
+{
+  "placementBoundsCases": 72,
+  "counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "widths": [
+    1440,
+    390,
+    320
+  ],
+  "verticalMovement": "passed",
+  "spacing": "passed",
+  "uniformScale": "preserved",
+  "keyboard": "passed",
+  "finalPreview": "synchronized",
+  "customization": "preserved",
+  "reset": "passed",
+  "runtimeErrors": []
+}

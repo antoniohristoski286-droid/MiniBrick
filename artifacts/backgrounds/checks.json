@@ -1,0 +1,29 @@
+{
+  "lint": {
+    "exitCode": 0,
+    "newWarnings": 0,
+    "preExistingWarnings": [
+      "app/page.tsx:17 next/no-img-element",
+      "app/page.tsx:23 next/no-img-element",
+      "postcss.config.mjs:1 import/no-anonymous-default-export"
+    ]
+  },
+  "typecheck": {
+    "exitCode": 0
+  },
+  "productionBuild": {
+    "exitCode": 0
+  },
+  "productionServer": "http://localhost:3004",
+  "characterRegression": {
+    "faceHairCombinations": 207,
+    "torsoColors": 12,
+    "legColors": 12,
+    "newbornFaces": 4,
+    "newbornBodyColors": 12,
+    "independentFigures": 4,
+    "passed": true
+  },
+  "productionSmoke": "passed",
+  "backgroundBrowserTests": "passed"
+}
