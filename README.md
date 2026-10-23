@@ -130,3 +130,7 @@ Client gallery intake and verification: `artifacts/client-gallery/REPORT.md`, `m
 ### New Year occasion and model availability
 
 The twelve seasonal backgrounds are labelled **Новогодишни** and have a dedicated **Нова година** occasion. Selecting it starts with BG015; the ordinary initial/reset background remains BG018. Original background artwork and IDs are unchanged. Model availability is explained in the character builder and final review; the exact product disclaimer is introduced by **Напомена:**. See artifacts/new-year-models/REPORT.md and frontend-tests/test_new_year_models.py.
+
+### Compact mobile character preview
+
+The Style step now keeps a 140-180 px character preview pinned inside the mobile editor while options scroll. It uses the same active figure and accessory state as the existing desktop and frame previews. Tap the preview to enlarge it in a native modal; closing restores focus and scroll position. Warnings, gallery navigation and pricing stay in normal flow below the editing controls. The compact preview stops at the editor boundary and is removed on other steps; desktop layout stays unchanged. See frontend-tests/test_mobile_sticky_preview.py and artifacts/mobile-sticky-preview/report.json.

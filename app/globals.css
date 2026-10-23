@@ -187,3 +187,11 @@
 @media(max-width:760px){.character-preview-pane:has(.accessorized-live-preview){position:static;height:auto;max-height:none}.character-preview-pane .accessorized-live-preview{flex:none;height:280px}}
 
 .model-availability-note{font-size:12px;line-height:1.7;color:#584a40;padding:12px 0;margin:0 0 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+/* Only the compact character stays pinned on phones; supporting details stay in flow. */
+@media(max-width:760px){
+ .mobile-preview-active .config-controls{--mobile-preview-height:clamp(140px,24svh,180px)}
+ .mobile-preview-active .character-preview-pane{order:2;height:auto;min-height:0}
+ .mobile-preview-active .character-preview-pane .preview-top,.mobile-preview-active .character-preview-pane .accessorized-live-preview{display:none}
+ .mobile-preview-active .step-content :is(button,input,select,textarea,fieldset,[tabindex]){scroll-margin-top:calc(var(--mobile-preview-height) + 16px)}
+}

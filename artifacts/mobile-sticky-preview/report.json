@@ -1,0 +1,48 @@
+{
+  "cases": [
+    {
+      "width": 320,
+      "height": 568,
+      "stickyHeight": 140,
+      "controls": "clicked normally",
+      "independentFigures": "preserved",
+      "dialog": "Escape, close, focus and scroll restoration passed"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "stickyHeight": 153.59375,
+      "controls": "clicked normally",
+      "independentFigures": "preserved",
+      "dialog": "Escape, close, focus and scroll restoration passed"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "stickyHeight": 180,
+      "controls": "clicked normally",
+      "independentFigures": "preserved",
+      "dialog": "Escape, close, focus and scroll restoration passed"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "stickyHeight": 180,
+      "controls": "clicked normally",
+      "independentFigures": "preserved",
+      "dialog": "Escape, close, focus and scroll restoration passed"
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "stickyHeight": 140,
+      "controls": "clicked normally",
+      "independentFigures": "preserved",
+      "dialog": "Escape, close, focus and scroll restoration passed"
+    }
+  ],
+  "desktopPreview": "preserved",
+  "otherSteps": "compact preview removed",
+  "stickyEndsAtEditor": true,
+  "runtimeErrors": []
+}
