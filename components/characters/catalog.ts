@@ -30,7 +30,7 @@ export const CHARACTER_COORDINATES = {
   width: 512, height: 768,
   headConnection: { x: 256, y: 280 },
   torsoConnection: { x: 256, y: 466 },
-  babyFace: { x: 190, y: 231, width: 132, height: 99 },
+  babyFace: { x: 199, y: 294, width: 114, height: 85.5 },
 } as const;
 const canvas = { x: 0, y: 0, width: 512, height: 768 };
 const headNames: Record<HeadId, string> = {
@@ -79,7 +79,7 @@ function bodyAssets<Id extends TorsoId | LegsId | BabyBodyId>(prefix: string, ca
 }
 export const torsos = bodyAssets<TorsoId>('T', 'torso', 'torsos', { x: 91, y: 276, width: 330, height: 232 }, CHARACTER_COORDINATES.headConnection);
 export const legs = bodyAssets<LegsId>('L', 'legs', 'legs', { x: 145, y: 462, width: 222, height: 252 }, CHARACTER_COORDINATES.torsoConnection);
-export const babyBodies = bodyAssets<BabyBodyId>('BC', 'baby-body', 'baby', { x: 156, y: 185, width: 200, height: 426 }, { x: 256, y: 334 }, true);
+export const babyBodies = bodyAssets<BabyBodyId>('BC', 'baby-body', 'baby-reference', { x: 143, y: 204, width: 226, height: 404 }, { x: 256, y: 388 });
 export const characterTypes: { id: CharacterType; label: string }[] = [
   { id: 'male', label: 'Машки' }, { id: 'female', label: 'Женски' },
   { id: 'child', label: 'Дете' }, { id: 'baby', label: 'Новороденче' },

@@ -79,7 +79,7 @@ with sync_playwright() as p:
  page.locator('.config-shell').scroll_into_view_if_needed();capture(page,'builder-desktop-final.png')
  # Existing frame preview stays synchronized and all unrelated defaults survive.
  step(page,'Позадина');frame=page.locator('.preview-pane .frame-art')
- expect(frame.locator('[data-background-id]')).to_have_attribute('data-background-id','BG001');expect(frame.locator('.art-names')).to_have_text('Бојана & Петар')
+ expect(frame.locator('[data-background-id]')).to_have_attribute('data-background-id','BG018');expect(frame.locator('.art-names')).to_have_text('Бојана & Петар')
  expect(frame.locator('.art-message')).to_have_text('Against all odds');expect(frame.locator('.art-date')).to_have_text('14.02.2026')
  for index in range(1,5):
   actual=frame.locator(f'svg[data-character-id="figure-{index}"] image[data-layer]').evaluate_all('(els)=>Object.fromEntries(els.map(e=>[e.dataset.layer,e.getAttribute("href")]))')

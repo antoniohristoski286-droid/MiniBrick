@@ -11,6 +11,7 @@ assert len(list((ASSETS/'hair-heads').glob('H??.png')))==9
 assert len(list((ASSETS/'torsos').glob('T??.png')))==12
 assert len(list((ASSETS/'legs').glob('L??.png')))==12
 assert len(list((ASSETS/'baby').glob('BC??.png')))==12
+assert len(list((ASSETS/'baby-reference').glob('BC??.png')))==12
 for path in ASSETS.rglob('*.png'):
  im=Image.open(path)
  assert im.mode=='RGBA',(path,'missing RGBA')
@@ -33,8 +34,8 @@ def compose(head='H03',face='F02',torso='T12',legs='L02',baby=False,color='BC10'
  canvas=Image.new('RGBA',(512,768))
  category={'F':'female','M':'male','C':'child','B':'baby'}[face[0]]
  if baby:
-  canvas.alpha_composite(Image.open(ASSETS/f'baby/{color}.png'));place={'x':190,'y':231,'width':132,'height':99}
-  mask=Image.new('L',(512,768));ImageDraw.Draw(mask).rounded_rectangle((193,202,319,338),radius=45,fill=255)
+  canvas.alpha_composite(Image.open(ASSETS/f'baby-reference/{color}.png'));place={'x':199,'y':294,'width':114,'height':86}
+  mask=Image.new('L',(512,768));ImageDraw.Draw(mask).rounded_rectangle((195,288,317,376),radius=16,fill=255)
  else:
   for path in [f'legs/{legs}.png',f'torsos/{torso}.png']:canvas.alpha_composite(Image.open(ASSETS/path))
   place=metadata[head]['face'];mask=Image.open(ASSETS/f'hair-heads/{head}-face-mask.png').getchannel('A')
@@ -57,5 +58,5 @@ for i in range(12):
  im=compose(torso=f'T{i+1:02}',legs=f'L{12-i:02}')
  alpha=im.getchannel('A')
  assert all(alpha.getpixel((256,y))>0 for y in range(275,580)),f'Body connection gap {i}'
-print('PASS: 81 RGBA PNG layers/masks; all 27 faces, 9 heads, 12 torsos, 12 legs, 12 provisional newborn bodies.')
+print('PASS: 93 RGBA PNG layers/masks; 27 faces, 9 heads, 12 torsos, 12 legs, 12 reference-based and 12 preserved newborn bodies.')
 print('PASS: uniform canvas, genuine transparent exteriors, identical body silhouettes, white interiors preserved, no top studs, continuous body connections.')

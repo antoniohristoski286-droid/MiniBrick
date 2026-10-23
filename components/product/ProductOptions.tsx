@@ -41,7 +41,7 @@ export function AccessoryArtwork({ value, followCharacter = false }: { value?: F
     if (!element || !parent || !character) return;
     const position = () => {
       const scene = parent.getBoundingClientRect();
-      const matrix = character.getScreenCTM();
+      const matrix = character.querySelector<SVGGElement>('[data-character-assembly]')?.getScreenCTM() ?? character.getScreenCTM();
       if (!matrix) return;
       const box = character.viewBox.baseVal;
       const origin = new DOMPoint(box.x, box.y).matrixTransform(matrix);
@@ -52,10 +52,20 @@ export function AccessoryArtwork({ value, followCharacter = false }: { value?: F
       Object.assign(element.style, { left: `${(origin.x - scene.left) / scaleX}px`, top: `${(origin.y - scene.top) / scaleY}px`, width: `${(end.x - origin.x) / scaleX}px`, height: `${(end.y - origin.y) / scaleY}px`, right: 'auto', bottom: 'auto' });
     };
     position();
+    // SVG transforms can settle after the React commit without changing the
+    // outer SVG's size. Measure again on the next frame, including type changes.
+    let frame: number;
+    const schedulePosition = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(position);
+    };
+    schedulePosition();
     const observer = new ResizeObserver(position);
     observer.observe(parent);
     observer.observe(character);
-    return () => observer.disconnect();
+    const typeObserver = new MutationObserver(schedulePosition);
+    typeObserver.observe(character, { attributes: true, attributeFilter: ['data-character-type'] });
+    return () => { cancelAnimationFrame(frame); observer.disconnect(); typeObserver.disconnect(); };
   }, [followCharacter, visible]);
   if (!value?.items.length) return null;
   const held = accessories.filter(item => item.id !== 'pet' && value.items.includes(item.id));

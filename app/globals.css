@@ -184,4 +184,6 @@
 
 /* Connect the approximate builder preview to authentic finished products. */
 .preview-gallery-link{display:flex;align-items:center;justify-content:center;gap:10px;align-self:center;width:100%;max-width:420px;min-height:44px;padding:12px 4px;margin:4px 0 0;color:#b71922;font-size:13px;font-weight:650;line-height:1.6;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}.preview-gallery-link svg{flex:none}.preview-gallery-link:hover{color:#82121a}
-@media(max-width:760px){.character-preview-pane:has(.accessorized-live-preview){height:auto;max-height:none}.character-preview-pane .accessorized-live-preview{flex:none;height:280px}}
+@media(max-width:760px){.character-preview-pane:has(.accessorized-live-preview){position:static;height:auto;max-height:none}.character-preview-pane .accessorized-live-preview{flex:none;height:280px}}
+
+.model-availability-note{font-size:12px;line-height:1.7;color:#584a40;padding:12px 0;margin:0 0 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}

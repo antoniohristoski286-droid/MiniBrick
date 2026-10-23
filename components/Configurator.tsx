@@ -8,7 +8,7 @@ import { FigurePlacement } from './FigurePlacement';
 import { initialConfig, defaultFigureLayout, defaultTextLayout, type Background, type FrameConfiguration } from './config';
 import { CharacterBuilder, CharacterLivePreview } from './characters/CharacterBuilder';
 import { BackgroundCustomizer } from './backgrounds/BackgroundCustomizer';
-import { initialBackgroundSettings, type BackgroundSettings } from './backgrounds/catalog';
+import { initialBackgroundSettings, newYearBackground, type BackgroundSettings } from './backgrounds/catalog';
 import { usePhotoUpload } from './backgrounds/usePhotoUpload';
 import { ensureCharacterCount, updateCharacterById, type CharacterPatch } from './characters/state';
 import { AccessoryArtwork, AccessorySelector, FrameColorSelector, PriceSummary } from './product/ProductOptions';
@@ -17,11 +17,11 @@ import { emptyCustomer, type CustomerDetails } from './product/order';
 import { frameSize, MAX_PREVIEW_FIGURES } from './product/catalog';
 const configuratorInitialConfig:FrameConfiguration={...initialConfig,backgroundSettings:initialBackgroundSettings,frameColor:'white',frameFormat:'standard',accessories:{}};
 const steps=['Фигури','Стил','Позадина','Текст','Преглед'];
-const preset:Record<string,Background>={'Парови':'heart','Годишнини':'anniversary','Родендени':'birthday','Семејство':'minimal','Најдобри пријатели':'fingerprint','Посебни моменти':'love'};
+const preset:Record<string,Background>={'Парови':'heart','Годишнини':'anniversary','Родендени':'birthday','Семејство':'minimal','Најдобри пријатели':'fingerprint','Посебни моменти':'love','Нова година':'love'};
 
 export default function Configurator(){
  const [config,setConfig]=useState<FrameConfiguration>(configuratorInitialConfig); const [step,setStep]=useState(0); const [activeCharacterId,setActiveCharacterId]=useState('figure-1'); const [customer,setCustomer]=useState<CustomerDetails>(emptyCustomer); const section=useRef<HTMLElement>(null);
- useEffect(()=>{const handler=(event:Event)=>{const detail=(event as CustomEvent<string>).detail;setConfig(c=>({...c,occasion:detail,background:preset[detail]||'heart'}));setStep(0);section.current?.scrollIntoView({behavior:'smooth'});};window.addEventListener('choose-occasion',handler);return()=>window.removeEventListener('choose-occasion',handler)},[]);
+ useEffect(()=>{const handler=(event:Event)=>{const detail=(event as CustomEvent<string>).detail;setConfig(c=>({...c,occasion:detail,background:preset[detail]||'heart',...(detail==='Нова година'?{backgroundSettings:{...(c.backgroundSettings??initialBackgroundSettings),mode:'catalog' as const,catalogId:newYearBackground.id}}:{})}));setStep(0);section.current?.scrollIntoView({behavior:'smooth'});};window.addEventListener('choose-occasion',handler);return()=>window.removeEventListener('choose-occasion',handler)},[]);
  const [teamCount,setTeamCount]=useState('5');const teamInput=useRef<HTMLInputElement>(null);const teamCountValid=/^\d+$/.test(teamCount)&&Number(teamCount)>=5&&Number(teamCount)<=MAX_PREVIEW_FIGURES;
  const selectCount=(figureCount:number)=>setConfig(c=>({...c,figureCount,frameFormat:figureCount>4?'a4':'standard',characters:ensureCharacterCount(c.characters,figureCount)}));
  const stepRegion=useRef<HTMLDivElement>(null);const pendingFocusStep=useRef<number|null>(null);

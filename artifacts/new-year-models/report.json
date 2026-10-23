@@ -1,0 +1,53 @@
+{
+  "newYearCategory": 12,
+  "newYearOccasion": "selects first New Year background",
+  "allSeasonalOriginalsDecode": true,
+  "referenceBabyColors": 12,
+  "babyFaces": 4,
+  "childScale": 0.88,
+  "childFeetAnchor": {
+    "x": 256,
+    "y": 714
+  },
+  "childAccessoryAlignment": {
+    "expected": 208.26666666666665,
+    "actual": 208.390625
+  },
+  "availabilityAndDisclaimer": "passed",
+  "responsiveCases": [
+    {
+      "width": 1440,
+      "type": "child"
+    },
+    {
+      "width": 768,
+      "type": "child"
+    },
+    {
+      "width": 390,
+      "type": "child"
+    },
+    {
+      "width": 320,
+      "type": "child"
+    },
+    {
+      "width": 1440,
+      "type": "baby"
+    },
+    {
+      "width": 768,
+      "type": "baby"
+    },
+    {
+      "width": 390,
+      "type": "baby"
+    },
+    {
+      "width": 320,
+      "type": "baby"
+    }
+  ],
+  "runtimeErrors": [],
+  "httpErrors": []
+}

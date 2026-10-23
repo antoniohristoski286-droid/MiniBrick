@@ -7,7 +7,7 @@ import { accessories, frameColors, frameSize, pets } from './catalog';
 import { createOrderRequest, formatOrderRequest, validateCustomer, type CustomerDetails } from './order';
 import { PriceSummary } from './ProductOptions';
 import styles from './product.module.css';
-import { productDisclaimer } from '../CustomerInfo';
+import { modelAvailabilityNotice, productDisclaimer } from '../CustomerInfo';
 
 export function OrderReview({ config, customer, onCustomerChange, onEdit }: { config: FrameConfiguration; customer: CustomerDetails; onCustomerChange: (value: CustomerDetails) => void; onEdit: (step: number) => void }) {
   const [prepared, setPrepared] = useState(false);
@@ -81,6 +81,6 @@ export function OrderReview({ config, customer, onCustomerChange, onEdit }: { co
       <p className={styles.note} role="status">{copyStatus}</p>
     </section>}
     <button type="button" className="text-button" onClick={() => onEdit(3)}>Назад кон уредување на текстот</button>
-    <p className={styles.legal}>{productDisclaimer}</p>
+    <p className={styles.notice}>{modelAvailabilityNotice}</p><p className={styles.legal}><strong>Напомена:</strong> {productDisclaimer}</p>
   </div>;
 }

@@ -13,6 +13,6 @@ export default function GalleryPage() {
       <ProjectGallery/>
       <section className="gallery-next"><h2>Како би изгледала<br/><em>вашата приказна?</em></h2><Link href="/#configurator" className="button button-red">Креирајте ја вашата рамка</Link><Link href="/#gallery" className="text-button">Назад кон почетната страница</Link></section>
     </main>
-    <footer className="gallery-footer container"><p>{productDisclaimer}</p><Link href="/privacy">Вашите податоци</Link><span>© MiniBrick.mk</span></footer>
+    <footer className="gallery-footer container"><p><strong>Напомена:</strong> {productDisclaimer}</p><Link href="/privacy">Вашите податоци</Link><span>© MiniBrick.mk</span></footer>
   </>;
 }

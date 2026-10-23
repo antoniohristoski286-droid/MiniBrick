@@ -1,6 +1,7 @@
 'use client';
 import type { ReactNode } from 'react';
 import { Check } from 'lucide-react';
+import { modelAvailabilityNotice } from '../CustomerInfo';
 import { babyBodies, characterTypes, faces, heads, legs, torsos, type Bounds } from './catalog';
 import { createCharacter, type CharacterConfig, type CharacterPatch } from './state';
 import { MiniBrickCharacter } from './MiniBrickCharacter';
@@ -26,7 +27,7 @@ export function CharacterBuilder({ characters, activeId, onActiveIdChange, onCha
   const update = (patch: CharacterPatch) => onChange(character.id, patch);
   const baby = character.type === 'baby';
   return <div className={styles.builder}>
-    <p className="step-kicker">ЧЕКОР 02 / 05</p><h3>Дајте им свој карактер.</h3><p className="step-intro">Составете ја секоја фигура, детаљ по детаљ.</p>
+    <p className="step-kicker">ЧЕКОР 02 / 05</p><h3>Дајте им свој карактер.</h3><p className="step-intro">Составете ја секоја фигура, детаљ по детаљ.</p><p className="model-availability-note"><strong>Достапност на моделите:</strong> {modelAvailabilityNotice}</p>
     <div className={styles.figureTabs} role="group" aria-label="Избери фигура за уредување">
       {characters.map((item, index) => <button key={item.id} type="button" className={item.id === character.id ? styles.activeFigure : ''} aria-pressed={item.id === character.id} onClick={() => onActiveIdChange(item.id)}><span className={styles.tabFigure} aria-hidden="true"><MiniBrickCharacter character={item} label={`Фигура ${index + 1}`}/></span><span>Фигура {index + 1}</span></button>)}
     </div>
@@ -38,9 +39,9 @@ export function CharacterBuilder({ characters, activeId, onActiveIdChange, onCha
       {faces.filter(face => face.category === character.type).map(face => <Choice key={face.id} id={face.id} name={face.displayName} selected={character.faceId === face.id} onSelect={() => update({ faceId: face.id })}><span className={styles.faceThumb}><svg viewBox="0 0 240 180" aria-hidden="true"><image href={face.src} width="240" height="180"/></svg></span></Choice>)}
     </div></fieldset>
     {baby ? <>
-      <fieldset className={styles.fieldset}><legend>Боја на тело <small>12 бои</small></legend><div className={styles.options}>
+      <fieldset className={styles.fieldset}><legend>Боја на тело и капче <small>12 бои</small></legend><div className={styles.options}>
         {babyBodies.map(body => <Choice key={body.id} id={body.id} name={body.displayName} selected={character.babyBodyColorId === body.id} onSelect={() => update({ babyBodyColorId: body.id })}><Thumbnail src={body.src} bounds={{ x: 138, y: 180, width: 236, height: 440 }}/></Choice>)}
-      </div></fieldset><p className={styles.provisionalNote}>Телото за новороденче е привремен 2D приказ. Ќе се замени со точниот модел кога ќе биде достапен.</p>
+      </div></fieldset><p className={styles.provisionalNote}>Капчето и телото се во избраната боја.</p>
     </> : <>
       <fieldset className={styles.fieldset}><legend>Избери фризура <small>9 варијанти</small></legend><div className={`${styles.options} ${styles.hairOptions}`}>
         {heads.map(head => <Choice key={head.id} id={head.id} name={head.displayName} selected={character.hairId === head.id} onSelect={() => update({ hairId: head.id })}><Thumbnail src={head.src} bounds={{ x: 82, y: 20, width: 348, height: 330 }}/></Choice>)}
@@ -60,6 +61,6 @@ export function CharacterLivePreview({ character, number }: { character: Charact
     <div className={styles.previewCaption}><span>Фигура {number}</span><span>{type}</span></div>
     <div className={styles.liveStage}><MiniBrickCharacter character={character} label={`Преглед на фигура ${number}`}/></div>
     <div className={styles.previewIds} aria-live="polite">{character.type === 'baby' ? `${character.faceId} · ${character.babyBodyColorId}` : `${character.hairId} · ${character.faceId} · ${character.torsoColorId} · ${character.legsColorId}`}</div>
-    <p className={styles.previewNote}>{character.type === 'baby' ? 'Привремен приказ на тело за новороденче' : 'Вашиот избор се прикажува веднаш.'}</p>
+    <p className={styles.previewNote}>{character.type === 'baby' ? 'Илустрација според доставениот модел' : 'Вашиот избор се прикажува веднаш.'}</p>
   </div>;
 }

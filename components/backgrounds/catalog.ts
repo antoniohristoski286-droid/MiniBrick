@@ -12,11 +12,12 @@ export interface CatalogBackground {
   warnings: string[];
 }
 
-// Keep the supplier's IDs, category assignments and review warnings verbatim.
+// Preserve supplier IDs and review warnings; the owner renamed the seasonal category.
 export const catalogBackgrounds = manifest.backgrounds.filter(
   (entry): entry is CatalogBackground => Boolean(entry.src && entry.thumbnail) && entry.status !== 'excluded',
 );
 export const backgroundCategories = manifest.categories;
+export const newYearBackground = catalogBackgrounds.find(entry => entry.category === 'Новогодишни')!;
 export const backgroundById = new Map(catalogBackgrounds.map(entry => [entry.id, entry]));
 
 export interface BackgroundSettings {

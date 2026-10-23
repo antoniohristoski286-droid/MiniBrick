@@ -24,7 +24,7 @@ The supplied logo and product reference are in `public/`. The frame artwork and 
 
 The existing **Стил** step uses `components/characters/MiniBrickCharacter.tsx` and a typed asset catalog. It supports 9 heads, 27 facial expressions across four character types, 12 upper-body colors, and 12 lower-body colors. Each figure retains its own settings when switching figures, types, or figure counts. The existing frame preview renders the same character configurations.
 
-Newborns use a clearly labeled provisional swaddled body because no newborn body reference was supplied. Only face and body color are shown for this type.
+Newborns use the owner-supplied hat-and-tapered-body reference, with four existing faces and twelve matching hat/body colors. Child artwork is rendered at 88% of adult size about the shared foot anchor; adult assets are unchanged.
 
 ```bash
 npm run lint
@@ -56,7 +56,7 @@ The browser script uses Google Chrome on macOS. It checks all 110 gallery select
 
 ### Demo limitations
 
-Uploads are intentionally temporary and never sent to a server. Supplied calendar designs are static images. Some artwork has existing printed text, so it may overlap the preserved personal text or figures; no artwork is edited or removed. The supplier's seven `review` warnings remain in the manifest for production review (including branding/signatures and fixed printed details). BG014 still requires a clean source. Newborn artwork remains the existing explicitly provisional body.
+Uploads are intentionally temporary and never sent to a server. Supplied calendar designs are static images. Some artwork has existing printed text, so it may overlap the preserved personal text or figures; no artwork is edited or removed. The supplier's seven `review` warnings remain in the manifest for production review (including branding/signatures and fixed printed details). BG014 still requires a clean source. The former provisional newborn files remain preserved; the active model now uses the owner-supplied reference.
 
 ### Figure placement
 
@@ -126,3 +126,7 @@ See `artifacts/visual-refinement/REPORT.md` for scope, validation, files and con
 The earlier four Instagram project images remain preserved as larger public-post originals (`public/projects/*-hq.jpg`); the hero still uses the birthday photo. The gallery and homepage showcase now use the 50 client-supplied originals described above, with quality-90 responsive delivery and full-photo enlargement. Smaller original files remain untouched. Landscape A4 previews use more of the available pane, and team SVGs scale uniformly without changing source artwork. Measured team figures are approximately 28–61% larger across tested desktop/mobile counts. See `artifacts/photo-quality/REPORT.md` and `frontend-tests/test_photo_quality.py`.
 
 Client gallery intake and verification: `artifacts/client-gallery/REPORT.md`, `manifest.json`, and `browser-report.json`.
+
+### New Year occasion and model availability
+
+The twelve seasonal backgrounds are labelled **Новогодишни** and have a dedicated **Нова година** occasion. Selecting it starts with BG015; the ordinary initial/reset background remains BG018. Original background artwork and IDs are unchanged. Model availability is explained in the character builder and final review; the exact product disclaimer is introduced by **Напомена:**. See artifacts/new-year-models/REPORT.md and frontend-tests/test_new_year_models.py.
